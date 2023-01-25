@@ -1,20 +1,21 @@
-import Header from "./pages/Header";
+import Header from "./components/Header";
 import Events from "./pages/Events";
 import About from "./pages/About";
 import Partnerships from "./pages/Partnerships";
 
-import { Route, Router } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
-      <Router>
+    <BrowserRouter>
+      <Routes>
         <Route path="/events" component={Events} />
         <Route path="/about" component={About} />
         <Route path="/partnerships" component={Partnerships} />
-      </Router>
+      </Routes>
         <Header />
-    </div>
+    </BrowserRouter>
   );
 }
 
