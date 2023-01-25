@@ -1,1 +1,1 @@
-# ibin
+Hello, this is the README for IBIN's React.js landing page. Check back soon to see it updated further down the road!
