@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ipin/static/css/main.bd40c395.css",
+    "main.js": "/ipin/static/js/main.008ed37e.js",
+    "static/media/hook.png": "/ipin/static/media/hook.d496140bef114a9181d0.png",
+    "index.html": "/ipin/index.html",
+    "main.bd40c395.css.map": "/ipin/static/css/main.bd40c395.css.map",
+    "main.008ed37e.js.map": "/ipin/static/js/main.008ed37e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd40c395.css",
+    "static/js/main.008ed37e.js"
+  ]
+}
