@@ -1,3 +1,4 @@
+import Construction from "./pages/Construction";
 import Header from "./components/Header";
 import Events from "./pages/Events";
 import About from "./pages/About";
@@ -14,7 +15,8 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/partnerships" component={Partnerships} />
       </Routes>
-        <Header />
+        {/* <Header /> */}
+        <Construction />
     </BrowserRouter>
   );
 }
