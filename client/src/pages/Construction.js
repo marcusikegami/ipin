@@ -12,7 +12,7 @@ const Construction = () => {
             <div id="construction" className='flex flex-col items-center py-20'>
                 <img className="h-10" alt="construction" src={hook}/>
                 <h3 className='py-4 text-xl'>Site Under Construction</h3>
-                <h1 className='py-4 text-4xl font-bold'>IPIN IS COMING ONLINE SOON</h1>
+                <h1 className='py-4 text-4xl font-bold text-center'>IPIN IS COMING ONLINE SOON</h1>
                 <div id='contact-us' className='flex flex-col items-center py-4'>
                     <h3 className='text-xl'>For more information, please contact us at:</h3>
                     <a className='pt-8 font-bold text-2xl hover:text-red-600' href='tel:801-870-8313'>801-870-8313</a>
