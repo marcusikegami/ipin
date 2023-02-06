@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/partnerships" component={Partnerships} />
       </Routes>
-        {/* <Header /> */}
+        <Header />
         <Construction />
     </BrowserRouter>
   );
