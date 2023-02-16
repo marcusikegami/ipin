@@ -10,13 +10,13 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/events" component={Events} />
-        <Route path="/about" component={About} />
-        <Route path="/partnerships" component={Partnerships} />
-      </Routes>
         <Header />
-        <Construction />
+      <Routes>
+        <Route path="/events" element={<Events />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/partnerships" element={<Partnerships />} />
+      </Routes>
+        {/* <Construction /> */}
     </BrowserRouter>
   );
 }
