@@ -11,9 +11,9 @@ const Header = () => {
             </div>
             <div id="navigation-wrapper" className='flex flex-col justify-center items-end'>
                 <div id="searchbar" className='p-1'>
-                    <input type="text" placeholder="Search" className='outline rounded-sm px-1 py-0.5' />
+                    <input type="text" placeholder="Search" className='outline rounded-sm px-1 py-0.5 w-40' />
                 </div>
-                <div id="navigation" className=' p-5'>
+                <div id="navigation" className=' p-1'>
                     <Link className='text-lg text-red-500 pl-5' to="/about">About</Link>
                     <Link className='text-lg text-red-500 pl-5' to="/partnerships">Partnerships</Link>
                     <Link className='text-lg text-red-500 pl-5' to="/events">Events</Link>
