@@ -18,6 +18,7 @@ const Header = () => {
                     {/* <Link className='text-lg text-red-500 pl-6' to="/">Home</Link> */}
                     <Link className='font-sans text-md text-red-500 pl-6' to="/about">About</Link>
                     <Link className='font-sans text-md text-red-500 pl-6' to="/partnerships">Partnerships</Link>
+                    <a className='font-sans text-md text-red-500 pl-6' href="https://ipin-np.org/about#contact-us">Contact Us</a>
                     {/* <Link className='text-lg text-red-500 pl-6' to="/events">Events</Link> */}
                 </div>
             </div>
