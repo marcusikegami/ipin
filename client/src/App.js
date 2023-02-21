@@ -10,7 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  if(window.location.pathname === '/') {window.location.replace('/about')}
+  if(window.location.pathname === '/') {window.location.replace('https://ipin-np.org/about')}
   return (
     <BrowserRouter>
         <Header />
