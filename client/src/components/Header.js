@@ -13,11 +13,11 @@ const Header = () => {
                 <div id="searchbar" className='p-1'>
                     <input type="text" placeholder="Search" className='outline rounded-sm px-1 py-0.5 w-40' />
                 </div>
-                <div id="navigation" className=' p-1'>
-                    <Link className='text-lg text-red-500 pl-5' to="/">Home</Link>
-                    <Link className='text-lg text-red-500 pl-5' to="/about">About</Link>
-                    <Link className='text-lg text-red-500 pl-5' to="/partnerships">Partnerships</Link>
-                    <Link className='text-lg text-red-500 pl-5' to="/events">Events</Link>
+                <div id="navigation" className=' p-2'>
+                    <Link className='text-lg text-red-500 pl-6' to="/">Home</Link>
+                    <Link className='text-lg text-red-500 pl-6' to="/about">About</Link>
+                    <Link className='text-lg text-red-500 pl-6' to="/partnerships">Partnerships</Link>
+                    <Link className='text-lg text-red-500 pl-6' to="/events">Events</Link>
                 </div>
             </div>
         </div>
