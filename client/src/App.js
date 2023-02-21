@@ -3,20 +3,24 @@ import Header from "./components/Header";
 import Events from "./pages/Events";
 import About from "./pages/About";
 import Partnerships from "./pages/Partnerships";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+  if(window.location.pathname === '/') {window.location.replace('/about')}
   return (
     <BrowserRouter>
         <Header />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/about" element={<About />} />
         <Route path="/partnerships" element={<Partnerships />} />
       </Routes>
-        {/* <Construction /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
