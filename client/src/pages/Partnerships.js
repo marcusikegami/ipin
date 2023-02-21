@@ -4,6 +4,9 @@ const Partnerships = () => {
             <div id="partnerships-header" className="pt-12 pb-2">
                 <h1 className="text-lg font-sans text-red-600">Partnerships</h1>
             </div>
+            <div id="payments-note" className="flex flex-col px-4 border-t border-gray-200">
+                <h2>* online merchant access coming soon, please contact us directly for membership, partnership, and donations.</h2>
+            </div>
             <div id="partnerships-body" className="flex flex-col px-4 border-t border-gray-200">
                 <h1 className="text-lg py-4 underline underline-offset-4">Corporate Membership</h1>
                 <div className="membership">
@@ -63,6 +66,14 @@ const Partnerships = () => {
                     <li className="pl-4">•  DACBR Presentation</li>
                     <li className="pl-4">• event should detail documentation, attorney/provider communication, imaging, second opinions/referrals, etc</li>
                 </ul>
+            </div>
+            <div id="contact-wrapper" className="pt-12 pb-2">
+            <h1 className="text-lg font-sans text-red-600">Contact Us</h1>
+                <div id='contact-us' className='flex flex-col items-center py-6 border-t border-gray-200'>
+                    <h3 className='text-xl'>For more information, please contact us at:</h3>
+                    <a className='pt-6 font-bold text-xl hover:text-red-600' href='tel:801-870-8313'>801-870-8313</a>
+                    <a className='font-bold text-xl hover:text-red-600' href='mailto:mtnpond6@gmail.com'>mtnpond6@gmail.com</a>
+                </div>
             </div>
         </div>
     );
