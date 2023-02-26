@@ -8,7 +8,7 @@ const Header = () => {
                 <a href='/'>
                     <img alt="IBIN logo" src={logo_icon} />
                 </a>
-                <h1 className='pl-8 text-lg font-mono text-red-600'>Integrated Personal Injury Network</h1>
+                <h1 className='pl-8 text-xl font-sans text-red-600 drop-shadow-md'>Integrated Personal Injury Network</h1>
             </div>
             <div id="navigation-wrapper" className='flex flex-col justify-center items-end'>
                 {/* <div id="searchbar" className='p-1'>

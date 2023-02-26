@@ -7,7 +7,7 @@ const Officers = () => {
             <div id="officers-body" className="px-4">
                 <div className="officer py-4">
                     <img src="" alt="" />
-                    <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Rick Ikegami</h2>
+                    <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Rick Ikegami, MBA</h2>
                     <p className="">
                         Rick Ikegami received his Bachelor’s in Science from the University of Utah and continued on to
                         obtain his MBA from Westminster College with a focus on Health Care Marketing. Serving as an
@@ -25,7 +25,7 @@ const Officers = () => {
                 </div>
                 <div className="officer py-4">
                     <img src="" alt="" />
-                    <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Dr. Jeremy Kaier</h2>
+                    <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Jeremy Kaier, DC</h2>
                     <p className="">
                     Dr. Jeremy Kaier completed his undergraduate studies at the University of Utah before
                     attending graduate school at Palmer College of Chiropractic.  He has worked with Aspen Falls
@@ -34,6 +34,13 @@ const Officers = () => {
                     approach to personal injury cases leads to better outcomes for patients.
                     Growing up in Pittsburgh, Dr. Kaier loves all things sports related, and can usually be found
                     skiing, golfing, hiking with his dog, and spending time with family and friends.
+                    </p>
+                </div>
+                <div className="officer py-4">
+                    <img src="" alt="" />
+                    <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Sean Smith, DC</h2>
+                    <p className="text-stone-500">
+                    Awaiting content from Sean Smith
                     </p>
                 </div>
                 <div className="officer py-4">
