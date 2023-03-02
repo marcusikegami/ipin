@@ -17,10 +17,6 @@ const About = ({selection}) => {
         return;
     };
 
-    useEffect(() => {
-        handleSelection();
-    });
-
     return (
         <div id="about">
             <div id="mission-statement" className="mx-auto w-1/2 py-16 flex flex-col items-center justify-center">
@@ -36,7 +32,7 @@ const About = ({selection}) => {
                 <ul className="flex flex-row">
                     {tabs.map(tab => {
                         return (
-                            <li className={`px-4 py-1 font-sans outline-2 rounded-sm border-inherit bg-red-500 text-white mr-2 ${(selectedTab === tab) ? 'text-red-600 underline underline-offset-4' : 'bg-red-600 drop-shadow-md text-stone-100'} hover:underline hover:underline-offset-4`} onClick={() => {setTab(tab)}}>{tab}</li>
+                            <li className={`px-4 py-1 font-sans outline-2 rounded-sm border-inherit text-white mr-2 ${(selectedTab === tab) ? 'text-white bg-red-500 underline underline-offset-4' : 'bg-red-600 drop-shadow-md text-stone-100'} hover:underline hover:underline-offset-4`} onClick={() => {setTab(tab)}}>{tab}</li>
                         )
                     })}
                 </ul>
