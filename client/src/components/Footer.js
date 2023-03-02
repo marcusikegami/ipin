@@ -8,7 +8,7 @@ const Footer = () => {
                 <div id="navigation" className=' p-2'>
                     <Link className='font-sans text-md text-white pl-6 hover:underline hover:underline-offset-4' to="/about">About</Link>
                     <Link className='font-sans text-md text-white pl-6 hover:underline hover:underline-offset-4' to="/partnerships">Partnerships</Link>
-                    <a className='font-sans text-md text-white pl-6 hover:underline hover:underline-offset-4' href="https://ipin-np.org/about#contact-us">Contact Us</a>
+                    <Link className='font-sans text-md text-white pl-6 hover:underline hover:underline-offset-4' to="/contact">Contact Us</Link>
                 </div>
             </div>
         </div>

@@ -4,7 +4,8 @@ import Events from "./pages/Events";
 import About from "./pages/About";
 import Partnerships from "./pages/Partnerships";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/about" element={<About />} />
         <Route path="/partnerships" element={<Partnerships />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
