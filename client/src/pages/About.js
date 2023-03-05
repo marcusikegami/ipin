@@ -6,7 +6,7 @@ import Events from './Events';
 const About = ({selection}) => {
     const tabs = ['Officers', 'Board', 'Events'];
     // const tabs = ['Officers', 'Board', 'Doctors and Lawyers'];
-    const [selectedTab, setTab] = useState(tabs[0]);
+    const [selectedTab, setTab] = useState('Officers');
 
     const handleSelection = () => {
         if(selection){
@@ -16,6 +16,8 @@ const About = ({selection}) => {
         setTab(tabs[0]);
         return;
     };
+
+    useEffect(() => {handleSelection()}, [selection]);
 
     return (
         <div id="about">
