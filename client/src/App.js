@@ -6,6 +6,8 @@ import Partnerships from "./pages/Partnerships";
 import Footer from "./components/Footer";
 // import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Membership from "./pages/Membership";
+import Sponsorship from "./pages/Sponsorship";
 
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
@@ -23,8 +25,8 @@ function App() {
         <Route path="/about/board" element={<About selection="Board"/>} />
         <Route path="/about/events" element={<About selection="Events"/>} />
         <Route path="/partnerships" element={<Partnerships />} />
-        <Route path="/partnerships" element={<Partnerships />} />
-        <Route path="/partnerships" element={<Partnerships />} />
+        <Route path="/partnerships/sponsorship" element={<Sponsorship />} />
+        <Route path="/partnerships/membership" element={<Membership />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
