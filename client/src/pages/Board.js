@@ -18,8 +18,8 @@ const Board = () => {
                     <h3 className="pl-4">Steele Adams Hosman</h3>
                 </div>
                 <div className="board-member py-4">
-                    <h2 className="text-xl pb-2 text-red-600 underline underline-offset-4 drop-shadow-md">Mark Ormond, Patient Lienq</h2>
-                    <h3 className="pl-4">Patient Lienq Owner</h3>
+                    <h2 className="text-xl pb-2 text-red-600 underline underline-offset-4 drop-shadow-md">Mark Ormond, Vice Chairman</h2>
+                    <h3 className="pl-4">Patient LienQ</h3>
                 </div>
                 <div className="board-member py-4">
                     <h2 className="text-xl pb-2 text-red-600 underline underline-offset-4 drop-shadow-md">James Brewster, MD</h2>

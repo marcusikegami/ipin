@@ -27,55 +27,71 @@ const Officers = () => {
                     <img src="" alt="" />
                     <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Jeremy Kaier, DC</h2>
                     <p className="">
-                    Dr. Jeremy Kaier completed his undergraduate studies at the University of Utah before
-                    attending graduate school at Palmer College of Chiropractic.  He has worked with Aspen Falls
-                    Spinal Care Center since 2019 and helped open their South Jordan clinic in 2020. Dr. Kaier and
-                    Aspen Falls take an evidence-based approach to healthcare and believe that a collaborative
-                    approach to personal injury cases leads to better outcomes for patients.
-                    Growing up in Pittsburgh, Dr. Kaier loves all things sports related, and can usually be found
-                    skiing, golfing, hiking with his dog, and spending time with family and friends.
+                        Dr. Jeremy Kaier completed his undergraduate studies at the University of Utah before
+                        attending graduate school at Palmer College of Chiropractic.  He has worked with Aspen Falls
+                        Spinal Care Center since 2019 and helped open their South Jordan clinic in 2020. Dr. Kaier and
+                        Aspen Falls take an evidence-based approach to healthcare and believe that a collaborative
+                        approach to personal injury cases leads to better outcomes for patients.
+                        Growing up in Pittsburgh, Dr. Kaier loves all things sports related, and can usually be found
+                        skiing, golfing, hiking with his dog, and spending time with family and friends.
                     </p>
                 </div>
                 <div className="officer py-4">
                     <img src="" alt="" />
                     <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Sean Smith, DC</h2>
                     <p className="text-stone-500">
-                    Awaiting content from Sean Smith
+                        Dr. Smith has been a practicing Chiropractic Physician in Utah since 2006. He received a
+                        Bachelor’s degree in Psychology from Utah Valley University in 2002. He then attended
+                        Palmer College of Chiropractic where he received his Doctorate of Chiropractic in 2006.
+                        His post graduate education includes advanced certification through Spine Research
+                        Institute of San Diego in management of spinal trauma and mild traumatic brain injuries
+                        and certification in Chiropractic Biophysics (CBP) technique. Dr Smith is also a boar
+                        Certified Chiropractic Sports Physician (CCSP) through ACBSP.
+                        While he enjoys treating patients of all ages and a variety of biomechanical conditions,
+                        Dr. Smith specializes in treating auto accident and sports injuries. He has worked
+                        closely with several high school and college level sports teams. He is the current team
+                        chiropractor for the Utah Grizzlies ECHL professional hockey team. In the past few
+                        years he has traveled with the USA Luge, Bobsled and Skeleton, and Para Snowboard
+                        teams as a volunteer sports medicine provider.
+                        In his free time Dr. Smith enjoys spending time with his wife and two children, skiing,
+                        hiking, biking, and being active. From his time living in Argentina and traveling through
+                        Central America, he has become a fluent Spanish speaker and enjoys the opportunity to
+                        treat a large number of both Spanish and English speaking patients.
                     </p>
                 </div>
                 <div className="officer py-4">
                     <img src="" alt="" />
                     <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Rhett Hosman</h2>
                     <p className="">
-                    Rhett Hosman is the Marketing Director for Steele Adams Hosman Trial Attorneys. Prior to
-                    starting his dream job with SAH Legal, Rhett worked in manufacturing operations management
-                    primarily building equipment for the natural gas industry. He has extensive experience in sales,
-                    operations, and management in the building materials and mortgage industries. While working
-                    at various roles within these industries, he developed a passion for helping organizations
-                    achieve growth and improvements on all levels by utilizing the tools available to them. It was
-                    this passion which led him to his career working for a law firm committed to helping people
-                    recover physically, emotionally, and financially from catastrophic injuries.  
-                    Rhett’s joy is his family which include his wife, Joann, of 38 years, his two sons, Justin, and
-                    Jordan, and his three grandchildren Hyrum, Heber, and Hannah. Rhett and his wife Joann
-                    currently reside in South Ogden, Utah where they enjoy exploring the west in their travel
-                    trailer, mountain biking in the summer and skiing in the winter.
+                        Rhett Hosman is the Marketing Director for Steele Adams Hosman Trial Attorneys. Prior to
+                        starting his dream job with SAH Legal, Rhett worked in manufacturing operations management
+                        primarily building equipment for the natural gas industry. He has extensive experience in sales,
+                        operations, and management in the building materials and mortgage industries. While working
+                        at various roles within these industries, he developed a passion for helping organizations
+                        achieve growth and improvements on all levels by utilizing the tools available to them. It was
+                        this passion which led him to his career working for a law firm committed to helping people
+                        recover physically, emotionally, and financially from catastrophic injuries.  
+                        Rhett’s joy is his family which include his wife, Joann, of 38 years, his two sons, Justin, and
+                        Jordan, and his three grandchildren Hyrum, Heber, and Hannah. Rhett and his wife Joann
+                        currently reside in South Ogden, Utah where they enjoy exploring the west in their travel
+                        trailer, mountain biking in the summer and skiing in the winter.
                     </p>
                 </div>
                 <div className="officer py-4">
                     <img src="" alt="" />
                     <h2 className="pb-2 text-xl underline underline-offset-4 text-red-600 drop-shadow-md">Sammi Rasmussen</h2>
                     <p className="">
-                    Sammi Rasmussen has 10 years experience in health care and has a detailed understanding of
-                    operations and business development in the industry. Sammi is currently a development
-                    advisor for an independent imaging center, RAYUS Radiology, and believes that a collaborative
-                    approach to health care is the most successful. Because of this, she helps organize and plan
-                    conferences and networking events for providers in the Utah market. Prior to RAYUS Radiology,
-                    Sammi worked in both the home health/hospice and pharmaceutical industries. She helped
-                    start 2 different organizations dedicated to helping those who are underserved in their
-                    communities, namely veterans, in receiving treatment better suited for their needs.
-                    Sammi is one to stay busy, always looking for a fun project or activity to do. Creating new things
-                    is a favorite way to pass the time. She loves to spend time “out of the house” with her family
-                    and friends, going on hikes, shopping, and going out to eat, especially while on vacation.
+                        Sammi Rasmussen has 10 years experience in health care and has a detailed understanding of
+                        operations and business development in the industry. Sammi is currently a development
+                        advisor for an independent imaging center, RAYUS Radiology, and believes that a collaborative
+                        approach to health care is the most successful. Because of this, she helps organize and plan
+                        conferences and networking events for providers in the Utah market. Prior to RAYUS Radiology,
+                        Sammi worked in both the home health/hospice and pharmaceutical industries. She helped
+                        start 2 different organizations dedicated to helping those who are underserved in their
+                        communities, namely veterans, in receiving treatment better suited for their needs.
+                        Sammi is one to stay busy, always looking for a fun project or activity to do. Creating new things
+                        is a favorite way to pass the time. She loves to spend time “out of the house” with her family
+                        and friends, going on hikes, shopping, and going out to eat, especially while on vacation.
                     </p>
                 </div>
             </div>
